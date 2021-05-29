@@ -1,8 +1,8 @@
 const express = require('express');
 const path = require('path');
-const db = require('./config/connection');
-const routes = require('./routes');
-
+//const db = require('./config/connection');
+//const routes = require('./routes');
+const { dataSet, resolver } = require('../schemas');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
